@@ -72,9 +72,20 @@ Use a width of `140px` and a height of `230px` for the cover image.
 
 ## Resources
 
-⬇️ You can [**download the data and assets for the Lord of the Rings App here**](./resources.zip?raw=true).
+You can find the movie data, introduction and images in [this folder](./resources/). You can download them with our `ghcd` tool by using these commands **inside your project folder**:
 
-- Unzip the file to get the `resources` folder.
+```bash
+cd lotr-app
+```
+
+```bash
+npx ghcd@latest neuefische/web-exercises/tree/main/sessions/nextjs-basics-and-routing/lotr-app/resources resources
+```
+
+```bash
+npx ghcd@latest neuefische/web-exercises/tree/main/sessions/nextjs-basics-and-routing/lotr-app/design-resources design-resources
+```
+
 - The files are already in the correct structure for the app.
   - `lib/data.js` contains the data for the app.
   - `public/images` contains the images for the app.

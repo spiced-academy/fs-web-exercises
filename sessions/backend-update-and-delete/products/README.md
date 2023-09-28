@@ -1,6 +1,6 @@
 # Backend Update and Delete: Products
 
-In this challenge, you'll further expand a fish shop. This time, you'll update and delete data in your local MongoDB using `mongoose`.
+In this challenge, you'll further expand a fish shop. This time, you'll update and delete data in your MongoDB using `mongoose`.
 
 > 💡 You can use this template as a starting point. But if you are far enough along with your own Fish Shop App, please use that instead.
 
@@ -8,7 +8,7 @@ In this challenge, you'll further expand a fish shop. This time, you'll update a
 
 ### Prepare your Database
 
-If you have not done so, use MongoDB Compass to create a database:
+If you have not done so, use MongoDB Atlas to create a database:
 
 - the database should be called `fish-shop`,
 - there should be two collections: `products` and `reviews`,
@@ -122,13 +122,12 @@ Open [`localhost:3000/`](http://localhost:3000/) in your browser, switch to a de
 
 ### Resources
 
-⬇️ You can [**download the data and assets for the Fish Shop here**](./resources.zip?raw=true).
+You can find the fish shop data in [this folder](./resources/).
 
-- Unzip the file to get the `resources` folder.
 - The files are already in the correct structure for the app.
   - `products.json` contains the data for the all fish,
   - `reviews.json` contains the data for all reviews.
-- Import them into the correct collection of your local MongoDB when you are asked to.
+- Import them into the correct collection of your MongoDB when you are asked to.
 
 ## Development
 

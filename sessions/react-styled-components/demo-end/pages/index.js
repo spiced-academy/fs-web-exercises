@@ -1,35 +1,37 @@
-import InfoBox from "../components/InfoBox";
-import Button from "../components/Button";
-import Container from "../components/Container";
-import Link from "../components/Link";
+import styled from "styled-components";
+
+const Button = styled.button`
+  all: unset;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  color: white;
+  background-color: var(--primary-color);
+
+  &:hover {
+    color: black;
+    background-color: var(--primary-background);
+  }
+`;
+
+const Link = styled(Link)`
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary-color);
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+`;
 
 export default function HomePage() {
   return (
     <>
-      <Container>
-        <Button>Click me</Button>
-        <Button $color="danger">Click me not</Button>
-      </Container>
+      <Button>Click me</Button>
 
-      <Container>
-        <p>
-          This is a <Link href="/"> link</Link>.
-        </p>
-      </Container>
-
-      <Container $direction="column">
-        <InfoBox title="This is an info" message="Read it carefully!" />
-        <InfoBox
-          title="It worked"
-          message="You have done it!"
-          variant="success"
-        />
-        <InfoBox
-          title="Error"
-          message="Something went wrong!"
-          variant="error"
-        />
-      </Container>
+      <p>
+        This is a <Link href="/">link</Link>.
+      </p>
     </>
   );
 }
