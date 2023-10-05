@@ -23,12 +23,23 @@ In this project you will build a Tourio App, the best friend of all travelers: i
 
 ### Delete Entry
 
-- In `pages/places/[id].index.js`, write the `deletePlace` function to start a `DELETE` request.
+- In `pages/places/[id]/index.js`, write the `deletePlace` function to start a `DELETE` request.
 - Write the `DELETE` API route in `pages/api/places/[id]/index.js`.
 
-### Deploy to Vercel
+# Bonus
+### Comment Section
+- To add a comment section for each place, you'll need to create a database schema or collection to store comments associated with each place. Each comment should have a reference to the place it belongs to, such as a place ID.
 
-- Deploy your app to Vercel and make sure the deployment can access the cloud database with the help of environment variables.
+- Create a form in your place detail page `pages/places/[id]/index.js` that allows users to submit comments.
+
+- Write a `POST` API route to handle comment submissions. This route should associate each comment with the appropriate place in your database.
+
+- Implement a mechanism to retrieve and display comments for each place on the detail page.
+
+
+### Deploy to Vercel
+🚀 Deploy your app to Vercel and make sure the deployment can access the cloud database with the help of environment variables.
+
 
 ## Development
 
