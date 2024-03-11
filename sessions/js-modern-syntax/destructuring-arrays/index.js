@@ -44,3 +44,40 @@ function add(...values) {
     (previousValue, currentValue) => previousValue + currentValue
   );
 }
+
+// EXERCISE 7
+// Write a function reverseArrayWithoutMutating that takes an array as an argument and returns a new array containing all of the items that are in the array that was passed in but in reverse order. 
+// This function should:
+
+// Leave the original array unchanged.
+// Contain no loops of any kind. That includes for, for...in, for...of, while, and do...while.
+// Not call slice or any other method on the original array.
+// Not call push or concat on any array in any way.
+// Your task is to implement this function without violating any of the above conditions.
+// Keep in mind that you need to export the function 'reverseArrayWithoutMutating' to make the test work.
+
+const arr = [1, 2, 3];
+export function reverseArrayWithoutMutating(arr) {
+  // write your code here
+}
+const reverseArr = reverseArrayWithoutMutating(arr);
+console.log(reverseArr); // Should log [3, 2, 1] without altering arr1
+console.log(arr); // Should still log [1, 2, 3]
+
+
+// EXERCISE 8
+// Develop a function mergeAndSortArrays that takes two arrays of numbers as arguments and returns a new array that is the result of merging the two arrays and sorting the elements in ascending order. 
+// (Hint: the sort method we've seen the other day comes in handy here)
+// The function should:
+
+// Not alter the original arrays.
+// Not use loops of any kind.
+// Keep in mind that you need to export the function 'mergeAndSortArrays' to make the test work.
+
+const array1 = [3, 6, 1];
+const array2 = [8, 5, 2];
+export function mergeAndSortArrays(array1, array2) {
+  // write your code here
+}
+const mergedAndSorted = mergeAndSortArrays(array1, array2);
+console.log(mergedAndSorted); // Should log [1, 2, 3, 5, 6, 8]
