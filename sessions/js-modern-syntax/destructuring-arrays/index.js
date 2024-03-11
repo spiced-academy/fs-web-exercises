@@ -61,7 +61,7 @@ export function reverseArrayWithoutMutating(arr) {
   // write your code here
 }
 const reverseArr = reverseArrayWithoutMutating(arr);
-console.log(reverseArr); // Should log [3, 2, 1] without altering arr1
+console.log(reverseArr); // Should log [3, 2, 1] without altering arr
 console.log(arr); // Should still log [1, 2, 3]
 
 
