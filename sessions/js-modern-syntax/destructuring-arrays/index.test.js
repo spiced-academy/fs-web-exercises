@@ -32,3 +32,16 @@ test('Exercise 5: student1 is "Chris", student2 is "Ahmad", student3 is "Antigon
 test("Exercise 6: result is 44", () => {
   expect(exercises.result).toEqual(44);
 });
+
+test("Exercise 7: reverseArrayWithoutMutating returns reversed array without altering the original", () => {
+  const arr = [1, 2, 3];
+  const reverseArr = exercises.reverseArrayWithoutMutating(arr);
+  expect(reverseArr).toEqual([3, 2, 1]);
+});
+
+test("Exercise 8: mergeAndSortArrays merges and sorts two arrays", () => {
+  const array1 = [3, 6, 1];
+  const array2 = [8, 5, 2];
+  const mergedAndSorted = exercises.mergeAndSortArrays(array1, array2);
+  expect(mergedAndSorted).toEqual([1, 2, 3, 5, 6, 8]);
+});
