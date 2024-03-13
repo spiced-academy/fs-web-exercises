@@ -21,3 +21,12 @@ test('Exercise 4: personLastname is "Main" and the object moreInformation contai
   expect(exercises.moreInformation).toHaveProperty("age", 24);
   expect(exercises.moreInformation).toHaveProperty("firstName", "Alex");
 });
+
+describe('Exercise 5: destructuringLogInfo', () => {
+  test('returns correct city information string', () => {
+    const city = { name: "Marseille", country: "France", population: 861635 };
+    const expectedString = "Marseille is in France and has 861635 inhabitants in it.";
+    const result = exercises.destructuringLogInfo(city);
+    expect(result).toEqual(expectedString);
+  });
+});
