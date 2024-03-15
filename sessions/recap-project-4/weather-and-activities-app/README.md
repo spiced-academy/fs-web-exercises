@@ -140,7 +140,33 @@ Use this wireframe as reference:
 
 <img src="./img/delete-button.png" alt="delete button wireframe" width="600">
 
-### Bonus: Fetch on Intervall
+## Bonus
+
+### Fetch on Intervall
 
 Fetching weather only on initial render is not really useful to stay up-to-date. Refactor your code
 so that the fetch is done every 5 seconds. Make sure to clear the timer when the component unmounts.
+
+### Design Refinement
+
+While wireframes serve as a foundation, take advantage of this opportunity to refine the design further. Focus on aspects such as color schemes, responsiveness, and accessibility to enhance the visual appeal and user experience.
+
+### City Selection Feature
+
+Introduce a city selection feature to personalize the weather app experience for users. Empower users to choose their preferred city and view relevant weather information, adding a layer of customization to the application.
+
+### Task Categorization in To-Do List
+
+Enhance task organization by implementing categories in the to-do list. Introduce a feature that allows users to categorize tasks, facilitating more efficient task management and organization.
+
+### Custom Styling for Categories
+
+Explore diverse styling options for each task category within the to-do list. Implement unique visual styles for different categories to add visual interest and aid users in distinguishing between tasks effectively.
+
+### Responsive Design Optimization
+
+Ensure optimal responsiveness of the application across various devices and screen sizes. Conduct thorough testing to guarantee a seamless user experience, regardless of the device used to access the application.
+
+### Handling Lengthy To-Do Text
+
+Address potential issues arising from lengthy to-do text by implementing appropriate solutions. Consider strategies to prevent style disruption and maintain readability when dealing with longer task descriptions.
