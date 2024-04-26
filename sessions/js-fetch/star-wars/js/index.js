@@ -30,7 +30,7 @@ const EXAMPLE_DATA = {
   ],
   created: "2014-12-09T13:50:51.644000Z",
   edited: "2014-12-20T21:17:56.891000Z",
-  url: "https://swapi.dev/api/people/1/",
+  url: "https://swapi.py4e.com/api/people/1/",
 };
 
 // Create dom element for a card and append it to the root
