@@ -1,0 +1,28 @@
+button {
+    background-color: var(--turquoise);
+    color: var(--dark-blue);
+
+    border: 2px solid var(--bark-turquoise);
+    border-radius: 12px;
+    margin: 20px;
+
+    font-size: larger;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    background-color: var(--light-blue);
+    border: 2px solid var(--dark-blue);
+    color: var(--light-grey);
+}
+
+p {
+    font-weight: normal;
+    text-align: center;
+    color: var(--dark-blue);
+    font-size: larger;
+}
+
+span {
+    font-size: 30px;
+}
