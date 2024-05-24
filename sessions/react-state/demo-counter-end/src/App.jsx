@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Counter from "./component/Counter";
 import "./App.css";
 
 export default function App() {
@@ -11,12 +11,4 @@ export default function App() {
   );
 }
 
-function Counter() {
-  const [count, setCount] = useState(0);
 
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      You have clicked this button {count} times
-    </button>
-  );
-}

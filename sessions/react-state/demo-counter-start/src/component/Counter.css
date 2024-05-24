@@ -1,0 +1,10 @@
+button {
+    background-color: var(--turquoise);
+    color: var(--dark-blue);
+
+    border: 2px solid var(--bark-turquoise);
+    border-radius: 12px;
+
+    font-size: larger;
+    padding: 0.5rem 1rem;
+}

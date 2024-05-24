@@ -1,3 +1,19 @@
+:root {
+  --dark-blue: #2e016d;
+  --blue: #3f0097;
+  --light-blue: #8236ff;
+  --bark-turquoise: #38ccda;
+  --turquoise: #7fd9e2;
+  --dark-pink: #ffadb9;
+  --light-pink: #ffdee2;
+  --yellow: #ffd15d;
+  --black: #303030;
+  --white: #ffffff;
+  --dark-grey: #b6b9c2;
+  --light-grey: #f5f6f6;
+  --red: #e32250;
+}
+
 *,
 *::before,
 *::after {
@@ -15,9 +31,5 @@ body {
   place-items: center;
   gap: 2rem;
   align-content: center;
-}
-
-button {
-  font-size: larger;
-  padding: 0.5rem 1rem;
+  background-color: var(--light-pink);
 }
