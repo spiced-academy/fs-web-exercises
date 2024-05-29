@@ -2,10 +2,17 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   :root {
-    --color-nemo: #ff4a11;
-    --color-granite: #252629;
-    --color-water-10: #f3f5f9;
-    --color-foam: #ffffff;
+    --color-primary-dark: #2e016d;
+    --color-primary: #3f0097;
+    --color-primary-light: #8236ff;
+    --color-secondary-dark: #38ccda;
+    --color-secondary: #7fd9e2;
+    --color-accent: #ffd15d;
+    --color-black-light: #303030;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey-dark: #b6b9c2;
+    --color-grey-light: #f5f6f6;
 
     --gap: 20px;
   }
@@ -23,30 +30,32 @@ export default createGlobalStyle`
     place-items: center;
     min-height: 100vh;
     max-width: 50rem;
+    background: var(--color-primary);
+    color: var(--color-white)
   }
 
   button {
     appearance: none;
     border: none;
-    background: var(--color-water-10);
+    background: var(--color-white);
     font-size: larger;
     padding: 0.5rem 1rem;
-    box-shadow: 0px 1px 5px -2px var(--color-granite);
+    box-shadow: 0px 1px 5px -2px var(--color-white);
   } 
 
   a {
     text-decoration: none;
+    color: var(--color-primary-dark);
     display: inline-block;
-    color: inherit;
     border: none;
-    background: var(--color-water-10);
+    background: var(--color-white);
     font-size: larger;
     padding: 0.5rem 1rem;
-    box-shadow: 0px 1px 5px -2px var(--color-granite);
+    box-shadow: 0px 1px 5px 2px var(--color-white);
   } 
 
   a:visited {
-    color: inherit;
+    color: var(--color-secondary-dark);
   }
 
   ul {
