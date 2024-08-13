@@ -4,9 +4,8 @@ This repository is a simple template for the web development students. It is a b
 
 ## How to setup?
 
-- Turn this template into your personal repo
-- Clone this repository
 - Run: `npm install`
+- Make sure that the `node_modules` folder is in the `.gitignore`, this one should never be committed!
 
 ## Exercise
 
